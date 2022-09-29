@@ -9,4 +9,4 @@ def write_file(filename="", text=""):
     with open(filename, "w", encoding="utf-8") as f:
         _len = f.write(text)
 
-    return 
+    return _len 
